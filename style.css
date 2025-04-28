@@ -11,12 +11,23 @@ body {
   flex: 1;
 }
 
-.header {
+.header, .footer {
   display: flex;
-  justify-content: space-between;
-  padding: 0 150px;
+  justify-content: center;
+  padding: 24px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
   color: #f9faf8;
   background-color: #1f2937;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 0 400px;
+}
+
+.footer {
+  font-size: 14px;
 }
 
 .logo {
@@ -101,7 +112,7 @@ ul {
 }
 
 .section.three {
-  padding: 100px 200px;
+  padding: 100px 400px;
   background-color: #E5E7EB
 }
 
@@ -119,7 +130,7 @@ ul {
 }
 
 .section.four {
-  margin: 50px auto;
+  margin: 75px auto;
   display: flex;
   justify-content: center;
 }
