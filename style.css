@@ -99,3 +99,21 @@ ul {
   text-align: center;
   width: 150px;
 }
+
+.section.three {
+  padding: 100px 200px;
+  background-color: #E5E7EB
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900
+}
